@@ -1,0 +1,76 @@
+@import "variables.scss";
+
+.title-nav {
+    font-family: versa;
+    color: white;
+
+}
+
+a.title-nav,
+a.title-nav:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.nav {
+    background: rgb(35, 39, 48);
+    background: linear-gradient(90deg, rgba(35, 39, 48, 1) 0%, rgba(52, 58, 64, 1) 100%);
+}
+
+.navbutton {
+    color: white;
+    border-color: white;
+}
+
+
+.btn-display {
+    background-color: white;
+    border-color: grey;
+    color: grey;
+    padding: 8px;
+    margin: auto;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-display:hover {
+    background-color: grey;
+}
+
+b-icon-grid,
+b-icon-list-task {
+    margin: none;
+    height: 27px;
+    width: 27px;
+}
+
+
+.btn-primary {
+    margin-right: 10px;
+    padding: 10;
+    height:30px;
+    width: 100px;
+    align-self: center;
+    
+}
+
+.modal{
+   position:fixed;
+   margin: 0;
+   z-index: 99;
+   background-color: rgba(0,0,0,0.2);
+   display: flex;
+   align-items: center;
+   justify-content: center; 
+}
+
+.modal-large{
+    width: 500px;
+}
+
+.table thead th {
+    border-bottom: 2px solid black;
+    border-top:  2px solid black;
+  }
